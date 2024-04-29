@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 // Import components
 import Header from "./components/Header";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
             <Route path="/:type" element={<Projects />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );

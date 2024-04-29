@@ -5,7 +5,7 @@ const Header = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <header className="bg-indigo-900 text-white h-16 px-8 py-4">
+    <header className="bg-indigo-900 text-white h-16 px-8 py-2">
       <div className="container mx-auto flex justify-between items-center h-full">
         <h1 className="font-bold text-3xl hover:text-indigo-300 transition-colors duration-200">
           <a href="/">All Projects</a>
